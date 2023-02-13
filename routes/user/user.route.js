@@ -31,8 +31,4 @@ module.exports = router;
 
 
 
-return res.status(400).json({
-  status: "FAILURE",
-  message: "Unable to user register.",
-});
-}
+

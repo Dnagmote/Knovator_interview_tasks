@@ -1,7 +1,9 @@
 var JwtStrategy = require('passport-jwt').Strategy,
     ExtractJwt = require('passport-jwt').ExtractJwt;
-const User = require("../model/user/user.model")
-const passport = require("passport")
+const User = require("../model/user/user.model");
+const passport = require("passport");
+
+// I MADE SOME CHANGES IN ROUTE FILE.
 
 var opts = {}
 opts.jwtFromRequest = ExtractJwt.fromAuthHeaderAsBearerToken();
